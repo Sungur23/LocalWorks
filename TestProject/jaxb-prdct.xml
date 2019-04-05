@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<product ID="0">
+    <ProductName>PC</ProductName>
+    <Model>ASUS</Model>
+    <UserList>
+        <User UserName="Ahmet" UserType="Erkek">
+            <UserID>0</UserID>
+            <UserAge>25</UserAge>
+        </User>
+        <User UserName="Serap" UserType="Kadın">
+            <UserID>1</UserID>
+            <UserAge>27</UserAge>
+        </User>
+    </UserList>
+</product>
