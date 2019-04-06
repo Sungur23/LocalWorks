@@ -14,7 +14,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Product {
 
-	@XmlAttribute(name = "ID:-aasdasd")
+	@XmlAttribute(name = "ID:-1111111111")
 	private int ID;
 
 	@XmlElement(name = "ProductName")
