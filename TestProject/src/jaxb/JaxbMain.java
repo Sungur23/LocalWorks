@@ -14,7 +14,7 @@ public class JaxbMain {
     public static void main(String[] args) {
         Product prdct = new Product(0, "PC", "ASUS");
         prdct.setUserList(Arrays.asList(
-        		new User(0,"Ahmet-1","Erkek",25), new User(1,"Serap","Kadýn",27)
+        		new User(0,"Ahmet-2","Erkek",25), new User(1,"Serap","Kadýn",27)
         		));
         
         jaxbObjectToXML(prdct);
