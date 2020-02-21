@@ -1,4 +1,5 @@
 import java.net.Inet4Address;
+import java.util.Date;
 import java.util.List;
 import java.util.Objects;
 import java.util.function.BiFunction;
@@ -120,8 +121,15 @@ public class Test {
 
 		PcapHandle handle = Pcaps.openOffline("dump0.pcap");
 		Packet p = handle.getNextPacket();
-
-		System.err.println(p);
+		System.err.println(new Date(handle.getTimestamp().getTime()));
+		p = handle.getNextPacket();
+		System.err.println(new Date(handle.getTimestamp().getTime()));
+		p = handle.getNextPacket();
+		System.err.println(new Date(handle.getTimestamp().getTime()));
+		p = handle.getNextPacket();
+		System.err.println(new Date(handle.getTimestamp().getTime()));
+		p = handle.getNextPacket();
+		System.err.println(new Date(handle.getTimestamp().getTime()));
 	}
 
 }
